@@ -27,7 +27,3 @@ app.post("/sum", async (req: any, res: any) => {
     
     res.json({ answer: result, id: request.id });
 })
-
-// app.listen(3000, () => {
-//     console.log("Server is running on port 3000");
-// })
